@@ -25,7 +25,7 @@ import BlogGrid from './pages/blog-grid';
 import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import PrivateRoute from './pages/PrivateRoute';
-import SuperadminDashboard from './pages/superadmin';
+import SuperadminDashboard from './pages/superadmin/superadmin';
 
 class Markup extends Component{
 	render(){
@@ -48,7 +48,7 @@ class Markup extends Component{
 							<Route path='/booking' element={<Booking />} />
 							<Route path='/blog-grid' element={<BlogGrid />} />
 							<Route path='/blog-details' element={<BlogDetails />} />
-							<Route path ='/superadmin' element={<SuperadminDashboard />} />
+							<Route path="/superadmin" element={<SuperadminDashboard />} />
 							<Route path="*" element={<Error />} />
 						</Route>
 						
