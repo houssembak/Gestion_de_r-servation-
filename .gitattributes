@@ -1,0 +1,19 @@
+# Normaliser les fichiers texte avec LF
+* text=auto eol=lf
+
+# Spécificité pour certains types de fichiers
+*.js text eol=lf
+*.jsx text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+
+# Ne pas modifier les fichiers binaires
+
+*.svg binary
+*.png binary
+*.jpg binary
+*.woff binary
+*.ttf binary
+
+*.gitattributes text eol=lf
