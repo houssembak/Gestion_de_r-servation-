@@ -104,6 +104,11 @@ const Header = () => {
 					displayName: 'Login / Register',
 					linkName: 'form-login'
 				},
+				{
+					id: 'chatbot',
+					displayName: 'chatbot',
+					linkName: 'chatbot'
+				},
 			]
 		},
 		{

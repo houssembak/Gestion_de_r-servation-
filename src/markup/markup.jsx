@@ -26,6 +26,7 @@ import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import PrivateRoute from './pages/PrivateRoute';
 import SuperadminDashboard from './pages/superadmin/superadmin';
+import ChatbotComponent from './pages/chatbot/chtbot';
 
 class Markup extends Component{
 	render(){
@@ -49,6 +50,7 @@ class Markup extends Component{
 							<Route path='/blog-grid' element={<BlogGrid />} />
 							<Route path='/blog-details' element={<BlogDetails />} />
 							<Route path="/superadmin" element={<SuperadminDashboard />} />
+							<Route path="/chatbot" element={<ChatbotComponent />} />
 							<Route path="*" element={<Error />} />
 						</Route>
 						
